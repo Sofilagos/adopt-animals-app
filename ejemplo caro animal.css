@@ -1,0 +1,164 @@
+.container-fluid.header {
+    background-color:rgb(255, 233, 165);
+    padding: 30px;
+}
+.logo {
+    height: 40px;
+}
+.row.buscador {
+    background-color:rgb(255, 202, 96);
+    padding: 20px;
+}
+.btn.btn-primary.card.buscador {
+    color: rgb(255, 255, 255);
+    background-color: rgb(242, 172, 36);
+    border-color: rgb(242, 172, 36);
+    margin-top: 0px;
+}
+.btn.btn-primary.card.buscador:hover {
+    background-color: rgb(204, 142, 18);
+    border-color:  rgb(204, 142, 18);
+}
+.btn.btn-primary.card.buscador.registrar {
+    color: rgb(128, 120, 14);
+    background-color: rgb(255, 251, 0);
+    border-color: rgb(242, 172, 36);
+    margin-top: 0PX;
+}
+.btn.btn-primary.card.buscador.registrar:hover {
+    color: rgb(128, 120, 14);
+    background-color: rgb(255, 238, 0);
+    border-color: rgb(209, 150, 32);    
+}
+.container-fluid.footer {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    height: 60px;
+}
+.container-fluid.catalogo {
+    background-color:rgb(247, 242, 226);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.container-fluid.ficha {
+    background-color:rgb(247, 242, 226);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.col.col-3 {
+    padding-bottom: 30px;
+}
+.card-text-description {
+    font-size: 15px;
+    margin: 0px;
+    color: grey;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.card-description-block {
+    font-size: 12px;
+    margin: 0px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card-text-title {
+    font-size: 12px;
+    line-height: 10px;
+    margin: 0px;
+    color: rgb(196, 194, 194);
+}
+.btn.btn-primary.card {
+    color: rgb(255, 255, 255);
+    background-color: rgb(242, 172, 36);
+    border-color: rgb(242, 172, 36);
+}
+.btn.btn-primary.card:hover {
+    background-color: rgb(204, 142, 18);
+    border-color:  rgb(204, 142, 18);
+}
+.card.animales {
+    margin: 10px;
+}
+.card.animal {
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0px;
+}
+.col.col-6.bg-full {
+    background-image: url('img/ovejero-paco.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: .25rem;  
+    border-bottom-left-radius: .25rem;  
+}
+.card-img-ficha {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.card.animal.img {
+    height: 350px;
+}
+.container.animal {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 0px;
+}
+.form.form-newanimal {
+    width: 100%;
+    Background-color: transparent;
+    margin: 40px;
+}
+.h1-newanimal {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+#name {
+    border-radius: .25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    margin-bottom: 26px;
+}  
+#name-placeholder {
+    border-radius: .25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    width: 180px;
+}
+.custom-select {
+    margin-bottom: 10px;
+    width: 100px;
+}
+@media all and (min-width: 425px) and (max-width: 1440px) {
+    .card.animales {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .card-text-description {
+        font-size: 13px;
+        line-height: 16px;
+        margin: 0px;
+        color: grey;
+        margin-top: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .card-text-title {
+        font-size: 10px;
+        line-height: 10px;
+        margin: 0px;
+        color: rgb(196, 194, 194);
+    }
+    .button.input.optgroup.select.textarea {
+        margin-bottom: 20px;
+    }
+   }

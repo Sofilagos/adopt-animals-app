@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Rašymo</title>
+
+
+    <style>
+        .body {
+
+            background-color: #fefefe;
+            font-family: "Bellota", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            letter-spacing: 4px;
+            line-height: 1.4;
+            color: #595959;
+
+        }
+
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: .75rem 1.25rem;
+            margin-bottom: -1px;
+            background-color: #000000;
+            color: #fefefe;
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .05);
+        }
+
+        a {
+
+            color: #fefefe;
+
+        }
+
+        a:hover {
+
+            color: #fefefe;
+            text-decoration-line: none;
+
+        }
+
+
+        .carousel.slide {
+
+            margin: 20px;
+        }
+
+        .centrado {
+
+            text-align: center;
+            font-family: "Bellota", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            color: #595959;
+
+
+        }
+
+        .footer {
+
+            background-color: #aeaeae;
+            color: aliceblue;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-left: 60px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tienda {
+
+            margin-top: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            letter-spacing: 4px;
+            line-height: 1.5;
+            color: #595959;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            box-sizing: border-box;
+            padding: 50px;
+
+        }
+
+        .descripcion {
+
+            font-size: smaller;
+
+        }
+
+        .img-thumbnail {
+
+            padding: 4px;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: .25rem;
+            max-width: 100%;
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .05);
+
+
+        }
+
+        .img-thumbnail:hover {
+
+            background-color: #fefefe;
+            border: 2px solid #d6d8da;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.084)
+        }
+
+        @media all and (max-width: 425px) {
+            .tienda {
+                padding: 2px;
+                font-size: smaller;
+            }
+        }
+
+        @media all and (max-width: 425px) {
+            .footer {
+                font-size: smaller;
+            }
+        }
+
+        @media all and (max-width: 425px) {
+            .img-thumbnail.detalle {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+
+
+<body class="body">
+    <!-- Header JS -->
+
+    <header>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-auto">
+                    <a href="prueba header.html"><img src="imagenes/rasymo logo.png" class="img-fluid" alt="rasymo">
+                </div></img>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-auto">
+                <ul class="list-group list-group-horizontal-sm">
+                    <li class="list-group-item"><a href="prueba header.html">Inicio</a></li>
+                    <li class="list-group-item"><a href="prueba tienda.html">Tienda</a></li>
+                    <li class="list-group-item"><a href="Prueba contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+    <!-- TIENDA JS -->
+
+    <tienda>
+        <div class="container">
+            <div class="row tienda">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="img-thumbnail">
+                        <h3>LO NUEVO</h3>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-12">
+                    <img src="imagenes/banner 2.jpg" alt="fotolibro" class="img-thumbnail">
+                </div>
+                <div class="col-lg-12 col-sm-12">
+                    <img src="imagenes/banner 3.jpg" alt="fotolibro" class="img-thumbnail">
+                </div>
+
+                <div class="col-lg-12 col-sm-12">
+                    <div class="img-thumbnail">
+                        <h3>CLÁSICOS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="imagenes/fotolibro.jpg" alt="fotolibro" class="img-thumbnail">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="img-thumbnail detalle">
+                        <h4>Fotolibro artesanal</h4></br>
+                        <p>Formato 21x21 </br>
+                            20 páginas </br>
+                            Encuadernación térmica</br>
+                            Caja contenedora</p>
+                        </br>
+                        <p class="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde
+                            entran aprox.
+                            70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. </br></br>
+
+                            Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador
+                            para garantizar que el diseno esté ok.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="imagenes/libretas.jpg" alt="fotolibro" class="img-thumbnail">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="img-thumbnail detalle">
+                        <h4>Libretitas cosidas</h4></br>
+                        <p>Formato 21x21 </br>
+                            20 páginas </br>
+                            Tapa rígida de cuerina</br>
+                            Incluye caja contenedora</p>
+                        </br>
+                        <p class="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde
+                            entran aprox.
+                            70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. </br></br>
+
+                            Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador
+                            para garantizar
+                            que el diseno esté ok.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="imagenes/album bebe.jpg" alt="fotolibro" class="img-thumbnail">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="img-thumbnail detalle">
+                        <h4>Álbum para el bebé</h4></br>
+                        <p>Formato 21x21 </br>
+                            20 páginas </br>
+                            Tapa rígida de cuerina</br>
+                            Incluye caja contenedora</p>
+                        </br>
+                        <p class="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde
+                            entran aprox.
+                            70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. </br></br>
+
+                            Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador
+                            para garantizar
+                            que el diseno esté ok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </tienda>
+
+    <!-- Inicio JS -->
+    <footer>
+
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <p>If you want to collaborate on
+                        </br>crafting amazing experience people
+                        </br>you are very welcome to
+                        contact me.</p>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12"> Contacto:
+                    </br> info@rasymo.com.uy
+                    </br> (+598) 2890 5555
+                    </br>Rivera 1373
+                </div>
+                </br>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <p>Encontranos en:</p>
+                    <a href="https://www.behance.net/sofilagos52e1/"> <img src="imagenes/logo be.png" class="img-fluid"
+                            alt="rasymo"></a>
+                    <a href="https://www.facebook.com/rasymo1"><img src="imagenes/logo fb.png" class="img-fluid"
+                            alt="rasymo"></a>
+                    <a href="https://instagram.com/rasymo_encuadernaciones?igshid=jg0fwkl165f2"><img
+                            src="imagenes/logo insta.png" class="img-fluid" alt="rasymo"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
